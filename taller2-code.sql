@@ -6,7 +6,7 @@ Nombres:
 */
 
 create table usuario(
-	id_usuario integer primary key,
+	id_usuario serial primary key,
 	email text not null,
 	password text not null,
 	tipo text not null
@@ -26,3 +26,4 @@ create table venta(
 	id_producto integer references producto(id_producto),
 	monto_total integer not null
 );
+
