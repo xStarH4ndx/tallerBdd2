@@ -1,7 +1,7 @@
 /*
 --------TALLER 2 BDD-----------
 Nombres:
-	- Nicolas
+	- Nicolas Aburto Lopez - 18758339-K - ICCI
 	- Bruno Toro - 20864066-6 - ICCI
 */
 
