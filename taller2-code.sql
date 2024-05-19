@@ -12,7 +12,6 @@ create table usuario(
 	tipo text not null
 );
 
-
 create table producto(
 	id_producto integer primary key,
 	nombre text not null,
