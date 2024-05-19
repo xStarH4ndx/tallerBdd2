@@ -2,7 +2,7 @@
 --------TALLER 2 BDD-----------
 Nombres:
 	- Nicolas
-	- Bruno Toro - 20864066-6
+	- Bruno Toro - 20864066-6 - ICCI
 */
 
 create table usuario(
