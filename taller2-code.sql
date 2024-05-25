@@ -3,11 +3,15 @@
 Nombres:
 	- Nicolas Aburto Lopez - 18758339-K - ICCI
 	- Bruno Toro - 20864066-6 - ICCI
+
+DROP TABLE IF EXISTS venta;
+DROP TABLE IF EXISTS producto;
+DROP TABLE IF EXISTS usuario;
+
 */
 
 create table usuario(
-	id_usuario serial primary key,
-	email text not null,
+	email text primary key,
 	password text not null,
 	tipo text not null
 );
@@ -22,8 +26,10 @@ create table producto(
 
 create table venta(
 	id_venta integer primary key,
-	id_usuario integer references usuario(id_usuario),
+	email text references usuario(email),
 	id_producto integer references producto(id_producto),
 	monto_total integer not null
 );
 
+select *
+from usuario
