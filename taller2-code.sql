@@ -35,6 +35,7 @@ create table venta(
 --Poblar Usuario
 insert into usuario (nombre,email,password,tipo) values
 ('Camilo Cerda','camilo@tienda.com','camilo@7720','admin')
+('bruno','a@a','a123','usuario')
 
 --Poblar Productos
 insert into producto (nombre, descripcion, precio, cant_stock) values
@@ -48,7 +49,3 @@ insert into producto (nombre, descripcion, precio, cant_stock) values
 ('Impresora','Impresora con conexión Wi-Fi', 200, 40),
 ('Cámara','Cámara digital con lente de 24MP', 600, 20),
 ('Parlante Bluetooth','Parlante aprueba de agua', 80, 300);
-
-
-insert into usuario (nombre,email,password,tipo) values
-('bruno','a@a','a123','usuario')
