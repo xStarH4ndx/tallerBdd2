@@ -34,7 +34,7 @@ create table venta(
 
 --Poblar Usuario
 insert into usuario (nombre,email,password,tipo) values
-('Camilo Cerda','camilo@tienda.com','camilo@7720','admin')
+('Camilo Cerda','camilo@tienda.com','camilo@7720','admin'),
 ('bruno','a@a','a123','usuario')
 
 --Poblar Productos
